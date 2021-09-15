@@ -7,7 +7,7 @@ nuevas variables que se enviar a pipelineToChoose y asi
 poder decidir entre otros pipelines */
 def config = readYaml text: """
 ---
-  APP_TYPE: 'hello'
+  APP_TYPE: 'test'
 """
 
 //creamos el map env
