@@ -8,8 +8,8 @@ def call(config){
             stage('Test Stage') {
                 steps {
                     script {
-                        // Espera de 5 minutos e imprime en el log el mensaje!
-                        timeout(time: 5, unit: 'MINUTES') {
+                        // Espera de 1 minuto e imprime en el log el mensaje!
+                        timeout(time: 1, unit: 'MINUTES') {
                             input 'Pipeline Executing!'
                         }
                         println "Pipeline ejecutado!"
