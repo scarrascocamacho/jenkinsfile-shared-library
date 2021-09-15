@@ -1,3 +1,6 @@
+#!/usr/bin/env groovy
+package com.demo
+
 import org.jenkinsci.plugins.*
 
 String parm1
