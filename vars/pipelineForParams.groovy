@@ -10,7 +10,7 @@ def call(config){
         stages {
             stage('Params') {
                 steps {
-                    new TestPipeline()
+                    new ParamsPipeline()
                             .withParm1(params.environment)
                             .withParm2(params.dryRun)
                             .withParm3(params.verifier)
