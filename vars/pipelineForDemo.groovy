@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
-import com.cleverbuilder.GlobalVars
-import com.cleverbuilder.SampleClass
+import com.demo.GlobalVars
+import com.demo.SampleClass
 
 def call(config){
     pipeline{
