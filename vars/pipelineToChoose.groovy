@@ -5,8 +5,8 @@ def call(env){
 
     if(env.APP_TYPE == 'test'){
         pipelineName = 'pipelineForTest'
-    } else if (env.APP_TYPE == 'hello') {
-        pipelineName = 'sayHello'
+    } else if (env.APP_TYPE == 'demo') {
+        pipelineName = 'pipelineForDemo'
     }
 
     return pipelineName
