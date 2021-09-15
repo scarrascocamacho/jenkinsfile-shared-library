@@ -1,4 +1,8 @@
 #!/usr/bin/env groovy
+
+import com.cleverbuilder.GlobalVars
+import com.cleverbuilder.SampleClass
+
 def call(config){
     pipeline{
         // Se ejecuta en cualquier agente libre

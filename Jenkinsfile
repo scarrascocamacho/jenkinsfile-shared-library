@@ -1,9 +1,6 @@
 //La libreria que vamos a utilizar
 @Library('jenkinsfile-shared-library') _
 
-import com.demo.GlobalVars
-import com.demo.SampleClass
-
 /* definimos la variable config que se trata de un yaml que
 leemos directamente del fichero, aqui se pueden definir
 nuevas variables que se enviar a pipelineToChoose y asi
